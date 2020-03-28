@@ -59,7 +59,7 @@
     position: absolute;
     width: 555px;
     height: 200px;
-    margin: 400px 200px 300px 700px;
+    margin: 400px 200px 0 700px;
     background-image: linear-gradient(#fc3426,#c41d12);
     box-shadow: 2px 2px 4px #000000;
     text-decoration: none;
