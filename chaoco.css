@@ -1,0 +1,55 @@
+/* body {
+    background-image: url("https://storage.needpix.com/rsynced_images/sky-2152463_1280.jpg");
+    
+} */
+
+#flag {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    margin-left: 285px;
+    margin-top: 500px;
+    transition: 3s;
+}
+
+#flagpole {
+    height: 600px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+#buttonchaoco {
+    display: block;
+    position: absolute;
+    width: 555px;
+    height: 200px;
+    margin: 70px 200px 300px 700px;
+    background-image: linear-gradient(#fc3426,#c41d12);
+    box-shadow: 2px 2px 4px #000000;
+    text-decoration: none;
+    transition: 0.1s ease;
+    outline: none;
+    border: none;
+
+    transition: 0.1s ease;
+    color: white;
+    font-size: 70px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+#buttonchaoco:hover {
+    background-color: #1d8033;
+    box-shadow: 4px 4px 4px #000000;
+    background-image: linear-gradient(#c41d12,#c21004);
+
+    cursor: pointer;
+
+    
+}
+
+#quocca {
+    margin: 300px 100px 0 700px;
+}
