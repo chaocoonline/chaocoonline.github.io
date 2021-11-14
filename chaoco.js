@@ -19,7 +19,7 @@ buttonquocca.addEventListener("click", function(){
 })
 
 var buttonstop = document.getElementById("buttonstop");
-buttonquocca.addEventListener("click", function(){
+buttonstop.addEventListener("click", function(){
     var quocca = document.getElementById("quocca");
     var trong = document.getElementById("trong");
     trong.stop()
