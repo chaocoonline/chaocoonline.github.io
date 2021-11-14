@@ -17,3 +17,11 @@ buttonquocca.addEventListener("click", function(){
     trong.pause()
     quocca.play();
 })
+
+var buttonstop = document.getElementById("buttonstop");
+buttonquocca.addEventListener("click", function(){
+    var quocca = document.getElementById("quocca");
+    var trong = document.getElementById("trong");
+    trong.stop()
+    quocca.stop();
+})
