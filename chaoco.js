@@ -1,7 +1,8 @@
 var buttonchaoco = document.getElementById("buttonchaoco");
 buttonchaoco.addEventListener("click", function() {
-    document.getElementById("flag").style.marginTop = "70px";
+    document.getElementById("flag").style.marginTop = "55px";
     var trong = document.getElementById("trong");
+    quocca.pause()
     trong.play();
     
       
@@ -12,5 +13,7 @@ buttonchaoco.addEventListener("click", function() {
 var buttonquocca = document.getElementById("buttonquocca");
 buttonquocca.addEventListener("click", function(){
     var quocca = document.getElementById("quocca");
+    var trong = document.getElementById("trong");
+    trong.pause()
     quocca.play();
 })

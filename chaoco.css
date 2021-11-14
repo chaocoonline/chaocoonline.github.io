@@ -3,15 +3,20 @@
     
 } */
 
+@-ms-viewport{
+    width: device-width;
+  }
+  
 #dkh {
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
 }
 
 #flag {
     position: absolute;
-    width: 180px;
-    height: 100px;
-    margin-left: 285px;
+    width: 220px;
+    height: 150px;
+    margin-left: 260px;
     margin-top: 500px;
     transition: 3s;
 }
@@ -26,7 +31,7 @@
     display: block;
     position: absolute;
     width: 555px;
-    height: 200px;
+    height: 150px;
     margin: 70px 200px 300px 700px;
     background-image: linear-gradient(#fc3426,#c41d12);
     box-shadow: 2px 2px 4px #000000;
@@ -37,7 +42,7 @@
 
     transition: 0.1s ease;
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -62,8 +67,8 @@
     display: block;
     position: absolute;
     width: 555px;
-    height: 200px;
-    margin: 400px 200px 0 700px;
+    height: 150px;
+    margin: 280px 200px 0 700px;
     background-image: linear-gradient(#fc3426,#c41d12);
     box-shadow: 2px 2px 4px #000000;
     text-decoration: none;
@@ -73,7 +78,7 @@
 
     transition: 0.1s ease;
     color: white;
-    font-size: 70px;
+    font-size: 60px;
     border-radius: 5px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -81,6 +86,38 @@
 }
 
 #buttonquocca:hover {
+    background-color: #1d8033;
+    box-shadow: 4px 4px 4px #000000;
+    background-image: linear-gradient(#c41d12,#c21004);
+
+    cursor: pointer;
+
+    
+}
+
+#buttonstop {
+    display: block;
+    position: absolute;
+    width: 555px;
+    height: 150px;
+    margin: 500px 200px 300px 700px;
+    background-image: linear-gradient(#fc3426,#c41d12);
+    box-shadow: 2px 2px 4px #000000;
+    text-decoration: none;
+    transition: 0.1s ease;
+    outline: none;
+    border: none;
+
+    transition: 0.1s ease;
+    color: white;
+    font-size: 60px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+
+}
+
+#buttonstop:hover {
     background-color: #1d8033;
     box-shadow: 4px 4px 4px #000000;
     background-image: linear-gradient(#c41d12,#c21004);
