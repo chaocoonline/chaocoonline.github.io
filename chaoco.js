@@ -22,6 +22,8 @@ var buttonstop = document.getElementById("buttonstop");
 buttonstop.addEventListener("click", function(){
     var quocca = document.getElementById("quocca");
     var trong = document.getElementById("trong");
-    trong.stop()
-    quocca.stop();
+    trong.pause()
+    quocca.pause();
+    trong.currentTime = 0;
+    quocca.currentTime = 0;
 })
